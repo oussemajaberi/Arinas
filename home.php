@@ -1,19 +1,48 @@
 
  
-  <?php include('includes/header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arinas</title>
+    <link rel="shortcut icon" type="image/png" href="./images/logoarinas2.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="icon/css/all.min.css">   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
 <div class="slider">
-        <div class="overlay"></div>
-      </div>
+  <div class="overlay">
+    <div class="menuu">
+   <div class="logo"><img src="./images/arinaswhite.png" width=120rem style=margin-top:10px></div>
+   <nav class="nav">
+      <ul>
+        <li><a href="home.php">Acceuil</a></li>
+        <li><a href="produit.php">Produit</a></li>
+        <li><a href="qsn.php">Qui sommes nous</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+        <li><a><i class="fas fa-shopping-bag"></i></a></li>
+      </ul>
+   </nav>
+</div>
+  </div>
+    </div>
   
   <div class="container">
     <h3 class="text-center mt-4" style="font-weight:700">Histoire de produit</h3>
     <div class="row histoire">
-        <div class="col-xl-6 col-lg-6 col-md-6 ">
-        <img src=""  class="img-fluid " width=100px>
+        <div class="col-xl-6 col-lg-6 col-md-6 " data-aos="fade-right">
+        <img src=""  class="img-fluid " width=120rem style=transform:rotate(-90deg)> 
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-6 ">
+        <div class="col-xl-6 col-lg-6 col-md-6 " data-aos="fade-left">
           <p>Il se peut que vous partagiez des informations sens
              avec ce site ou cette application que vous partagiez 
              Lisez les conditions d'utilisation et les règles defined
@@ -31,7 +60,7 @@
   </div>
 
   <div class="container">
-    <div class="row product d-flex justify-content-center">
+    <div class="row product d-flex justify-content-center" data-aos="fade-in">
 
       <div class="product_box col-lg-3 col-md-6 col-12 ">
         <img src="./images/mockup2.png" width="70px">
@@ -59,31 +88,31 @@
     </div>
 
   
-
+    </div>
     <section>
       <h3 class="text-center my-5" style="font-weight:700">Avantages</h3>
       <div class="row avantage">
-        <div class="ava1 col  mx-3">
+        <div class="ava1 col-xl-4 col-sm-12 ">
           <div class="overlay1 ">
-            
-            <button class="btn_ava ">Learn More</button>
+            <h3>Naturel</h3>
+            <a><i class="fas fa-angle-double-right fa-2x" style="color:#ccc"></i></a>
           </div>
           
          
         </div>
 
-        <div class="ava2 col  mx-3">
+        <div class="ava2 col-xl-4 col-sm-12  ">
           <div class="overlay1 ">
-            
-            <button class="btn_ava">Learn More</button>
+            <h3>Healthy</h3>
+            <a><i class="fas fa-angle-double-right fa-2x" style="color:#ccc"></i></a>
           </div>
           
         </div>
 
-        <div class="ava3 col mx-3">
+        <div class="ava3 col-xl-4 col-sm-12 ">
           <div class="overlay1">
-            
-            <button class="btn_ava ">Learn More</button>
+            <h3>impact social</h3>
+            <a href="#"><i class="fas fa-angle-double-right fa-2x" style="color:#ccc"></i></a>
           </div>
          
         </div>
@@ -91,7 +120,7 @@
       </div>
     </section>
    
-    </div>
+   
 
     
     <section class="blog">
@@ -140,8 +169,8 @@
     <section class="partenaire">
       <h3 class="text-center " style="font-weight:700">Partenaire</h3>
     </section>
-
     <?php include('includes/footer.php'); ?>
+    
 
 
   
