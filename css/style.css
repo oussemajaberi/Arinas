@@ -272,12 +272,16 @@ footer .row a
 {
     display:flex ;
     justify-content:center;
+    flex-direction: column;
+    width:80%;
+    align-items: center;
+    margin-bottom: 80px;
 }
 .vid iframe
 {
-    width:80%;
+    width:100%;
     height: 500px;
-    margin: 50px 0;
+    margin: 70px 0 50px 0;
 }
 .decription
 {
@@ -291,7 +295,7 @@ footer .row a
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 
-<<<<<<< HEAD
+
 }
 
 .produit_pg
@@ -360,6 +364,50 @@ footer .row a
     border-radius: 4px;
 
 }
-=======
+.form-sub-pr
+{
+    
+    width:60%;
+    margin:100px auto;
 }
->>>>>>> c98ca519eff225fd3acfb9a95253a1ebf399af8a
+.image_blog
+{
+    margin:70px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background-image: url(../images/blog5.jpg);
+    background-size: cover;
+    height:460px;
+    background-repeat: no-repeat;
+    
+}
+.msg_blog h1
+{
+    line-height:1.6 ;
+    margin-left:15vw;
+    
+}
+.titre_article
+{
+    text-align:center;
+    font-family:cav;
+    font-weight:500;
+    margin:100px 0 20px 0;
+
+}
+.articlee
+{
+    padding:20px;
+    margin:50px 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   
+}
+.articlee img:hover
+{
+    
+}
+.articlee:hover
+{
+   
+}

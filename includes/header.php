@@ -20,25 +20,17 @@
    <nav class="nav" >
       <ul >
         <li><a style="color:#333" href="home.php">Acceuil</a></li>
-<<<<<<< HEAD
+
         <li><a style="color:#333" href="produit.php">Produit</a></li>
         <li><a  style="color:#333" href="qsn.php">Qui sommes nous</a></li>
-        <li><a  style="color:#333">Blog</a></li>
+        <li><a  style="color:#333" href="blog.php">Blog</a></li>
         <li><a  style="color:#333">Contact</a></li>
         <li><a  style="color:#333"><i class="fas fa-shopping-bag"></i></a></li>
       </ul>
       
    </nav>
   
-=======
-        <li><a style="color:#333">Produit</a></li>
-        <li><a  style="color:#333" href="qsn.php">Qui sommes nous</a></li>
-        <li><a  style="color:#333">Blog</a></li>
-        <li><a  style="color:#333">Contact</a></li>
-        <li><a  style="color:#333"><i class="fa fa-search"></i></a></li>
-      </ul>
-   </nav>
->>>>>>> c98ca519eff225fd3acfb9a95253a1ebf399af8a
+
 </div>
   </div>
   

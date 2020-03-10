@@ -24,19 +24,12 @@
    <nav class="nav">
       <ul>
         <li><a href="home.php">Acceuil</a></li>
-<<<<<<< HEAD
+
         <li><a href="produit.php">Produit</a></li>
         <li><a href="qsn.php">Qui sommes nous</a></li>
-        <li><a>Blog</a></li>
+        <li><a href="blog.php">Blog</a></li>
         <li><a>Contact</a></li>
         <li><a><i class="fas fa-shopping-bag"></i></a></li>
-=======
-        <li><a>Produit</a></li>
-        <li><a href="qsn.php">Qui sommes nous</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Contact</a></li>
-        <li><a><i class="fa fa-search"></i></a></li>
->>>>>>> c98ca519eff225fd3acfb9a95253a1ebf399af8a
       </ul>
    </nav>
 </div>
@@ -47,7 +40,7 @@
     <h3 class="text-center mt-4" style="font-weight:700">Histoire de produit</h3>
     <div class="row histoire">
         <div class="col-xl-6 col-lg-6 col-md-6 " data-aos="fade-right">
-        <img src=""  class="img-fluid " width=120rem style=transform:rotate(-90deg)> 
+        <img src=""  class="img-fluid " width=120rem > 
         </div>
 
         <div class="col-xl-6 col-lg-6 col-md-6 " data-aos="fade-left">

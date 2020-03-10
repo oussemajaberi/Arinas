@@ -46,3 +46,4 @@ $(document).ready(function(){
       $(".btnava").css({"visibility": "hidden"});
     });
   });
+
