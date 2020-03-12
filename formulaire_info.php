@@ -1,5 +1,5 @@
 <?php include('includes/header.php'); ?>
-<form class="form-sub-pr">
+<form class="form-sub-pr" action="commande.php" method="post">
   <div class="form-row d-flex justify-content-center">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Nom <span style="color:red">*</span></label>
